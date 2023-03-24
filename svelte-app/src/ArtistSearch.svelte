@@ -1,4 +1,6 @@
 <script>
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
   export let searchTerm;
 </script>
 
@@ -17,6 +19,9 @@
         class="form-control"
         aria-label="Search Input"
         bind:value={searchTerm}
+        on:keyup={() => {
+          dispatch("updateSearch");
+        }}
       />
     </div>
   </div>
