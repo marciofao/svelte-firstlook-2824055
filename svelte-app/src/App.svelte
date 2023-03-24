@@ -5,7 +5,8 @@
 </script>
 
 <div class="container">
-  <ArtistList {searchTerm} />
+  <ArtistSearch {searchTerm} />
+  <ArtistList />
 </div>
 
 <style global lang="scss">
