@@ -4,7 +4,7 @@
   let reknown = "Royal Academy";
 </script>
 
-<img {src} alt={`Proto of ${name}`} />
+<img {src} alt={`Photo of ${name}`} />
 <h2 class="artist-name mb-0 text-primary">
   {name}
 </h2>
