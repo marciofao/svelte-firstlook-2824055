@@ -35,4 +35,4 @@
 <style global lang="scss">
   $primary: purple;
   @import "../node_modules/bootstrap/scss/bootstrap.scss";
-</div>
+</style>
