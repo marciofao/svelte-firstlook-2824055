@@ -2,9 +2,11 @@
   export let searchTerm;
 </script>
 
-<h4 class="text-primary">
-  Search:
-  <small>
-    for:{searchTerm}
-  </small>
-</h4>
+<div class="row justify-content-center">
+  <h4 class="text-primary">
+    Search:
+    <small>
+      for:{searchTerm}
+    </small>
+  </h4>
+</div>
