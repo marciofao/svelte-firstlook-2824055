@@ -10,6 +10,8 @@
     </h4>
     <p class=" text-muted mb-0">{reknown}</p>
   </div>
+{:else}
+  <p>No data</p>
 {/each}
 
 <style>
